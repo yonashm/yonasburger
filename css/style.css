@@ -282,3 +282,65 @@ section{
         --h2-font:2rem
     }
 }
+body {
+    font-family: Arial, sans-serif;
+    background:var(--bg-color);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background:var(--bg-color);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    
+    text-align: center;
+    color: var(--main-color);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+  
+  input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .checkbox-group {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .checkbox-group label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .submit-btn {
+    background: var(--main-color);
+    color: var(--text-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
