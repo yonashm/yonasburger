@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+  <title>Burger Order Form</title>
+  <style>
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Burger Order Form</h1>
+    
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+      
+      <label for="burger-type">Burger Type:</label>
+      <select id="burger-type" name="burger-type">
+        <option value="cheeseburger">Cheeseburger</option>
+        <option value="hamburger">Hamburger</option>
+        <option value="veggie-burger">Veggie Burger</option>
+      </select>
+      
+      <label>Toppings:</label>
+      <div class="checkbox-group">
+        <input type="checkbox" id="topping1" name="topping1" value="lettuce">
+        <label for="topping1">Lettuce</label>
+        <input type="checkbox" id="topping2" name="topping2" value="tomato">
+        <label for="topping2">Tomato</label>
+        <input type="checkbox" id="topping3" name="topping3" value="onion">
+        <label for="topping3">Onion</label>
+      </div>
+      
+      <input type="submit" value="Place Order" class="submit-btn">
+    </form>
+  </div>
+</body>
+</html>
