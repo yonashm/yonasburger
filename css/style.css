@@ -375,3 +375,39 @@ section{
 .container form .submit-btn:hover{
   background: #2ecc71;
 }
+
+
+
+.logo {
+    overflow: hidden;
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    font-family: Arial, sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+  }
+  
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; } { border-color: orange; }
+  }
+
+
+  .contactup {
+    color: #9897a9;
+    font-size: 1.1rem;
+    display: block;
+    text-transform: capitalize;
+    transition: .4s;
+}
+.contactup ul li a:hover{
+    color: var(--text-color);
+    transform: translateX(12px);
+}
